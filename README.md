@@ -1,27 +1,63 @@
-# Portfólio - Agno Souza
+# Portfólio • Desenvolvimento Web
 
-Portfólio pessoal com informações sobre meus estudos, skills e projetos.
+Este repositório reúne meus principais projetos de **desenvolvimento web**, focados em criar sites modernos, responsivos e funcionais para pequenos negócios, comércios locais e projetos institucionais.
 
-## Estrutura
-meu-portfolio/
-├─ index.html
-├─ style.css
-├─ script.js
-└─ assets/imgs/profile.jpg
+Trabalho com soluções simples e eficientes, pensadas para funcionar bem no celular, carregar rápido e facilitar o contato com clientes.
 
-markdown
-Copiar código
+---
 
-## Como usar
-1. Coloque sua foto em `assets/imgs/profile.jpg`.
-2. Substitua as imagens `project1.png` e `project2.png` por prints se desejar (opcional).
-3. Abra `index.html` localmente ou faça deploy no GitHub Pages.
+## O que eu desenvolvo
+- Sites institucionais
+- Landing pages
+- Sites para comércios locais
+- Projetos personalizados conforme a necessidade do cliente
 
-## Deploy no GitHub Pages
-1. Crie um repositório e suba todos os arquivos.
-2. No GitHub: *Settings > Pages* selecione a branch `main` e pasta `/ (root)`.
-3. Aguarde alguns minutos e o site estará online.
+---
+
+## Tecnologias
+- HTML5
+- CSS3
+- JavaScript
+- PHP
+- MySQL
+
+---
+
+## Projetos em destaque
+
+### Barbearia Prado
+Site institucional moderno, responsivo e com foco em apresentação profissional e contato direto com clientes.
+
+Demo:
+https://aj3838.github.io/barbearia-prado/
+
+---
+
+### Empório Viseu
+Modelo de site para comércio local, com layout clean, seções bem definidas e boa experiência em dispositivos móveis.
+
+Demo:
+https://aj3838.github.io/emporio-viseu-demo/
+
+---
+
+## Responsividade
+Todos os projetos são desenvolvidos com foco em:
+- Celulares
+- Tablets
+- Computadores
+
+---
+
+## Objetivo
+Criar sites que ajudem negócios a:
+- Ter mais credibilidade online
+- Apresentar melhor seus serviços
+- Facilitar o contato com clientes
+
+---
 
 ## Contato
-- GitHub: https://github.com/Aj3838
-- Email: agnojunior38@gmail.com
+Caso queira conversar sobre um projeto ou orçamento, entre em contato pelo GitHub.
+
+https://github.com/Aj3838
