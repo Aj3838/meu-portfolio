@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Agno Souza • Portfólio</title>
+
+  <link rel="shortcut icon" href="assets/profile.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<header class="site-header">
+  <div class="container nav-wrapper">
+    <h1 class="logo">Agno <span class="accent">Souza</span></h1>
+    <div class="controls">
+      <div class="theme-switch" id="themeSwitch">
+        <div class="switch-ball" id="switchBall"></div>
+      </div>
+      <nav class="navbar">
+        <a href="#sobre">Sobre</a>
+        <a href="#skills">Skills</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-card reveal">
+      <img src="profile.png" class="profile-img">
+      <div class="hero-bio">
+        <h2 class="headline" id="typed"></h2>
+        <p class="lead">HTML, CSS e JavaScript. Estudando PHP, MySQL e Python.</p>
+        <div class="hero-cta">
+          <a href="#projetos" class="btn btn-primary">Projetos</a>
+          <a href="#contato" class="btn btn-outline">Contato</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="section">
+  <div class="container">
+    <div class="about-grid reveal">
+      <div class="about-text">
+        <h2>Sobre mim</h2>
+        <p>
+          Olá! Eu sou <strong>Agno Souza Seles Junior</strong>, estudante técnico em
+          Desenvolvimento de Sistemas na ETEC. Gosto de transformar ideias em páginas
+          funcionais e simples.
+        </p>
+        <ul class="highlights">
+          <li>Estudante de Desenvolvimento na ETEC</li>
+          <li>Prática com front-end e lógica de programação</li>
+          <li>Em andamento: Python, PHP e integração com bancos de dados</li>
+        </ul>
+      </div>
+
+      <div class="about-stats">
+        <div class="stat">
+          <strong>HTML / CSS / JS</strong>
+          <span class="muted">Intermediário</span>
+          <div class="bar"><div style="width:78%"></div></div>
+        </div>
+
+        <div class="stat">
+          <strong>Python / PHP</strong>
+          <span class="muted">Estudando</span>
+          <div class="bar"><div style="width:45%"></div></div>
+        </div>
+
+        <div class="stat">
+          <strong>Git & GitHub</strong>
+          <span class="muted">Usando ativamente</span>
+          <div class="bar"><div style="width:60%"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="container">
+    <h2 class="section-title reveal">Skills</h2>
+    <div class="skills-grid reveal">
+      <div class="skill-card"><i class="devicon-html5-plain colored"></i><span>HTML</span></div>
+      <div class="skill-card"><i class="devicon-css3-plain colored"></i><span>CSS</span></div>
+      <div class="skill-card"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+      <div class="skill-card"><i class="devicon-php-plain colored"></i><span>PHP</span></div>
+      <div class="skill-card"><i class="devicon-mysql-plain colored"></i><span>MySQL</span></div>
+      <div class="skill-card"><i class="devicon-github-original colored"></i><span>GitHub</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJETOS -->
+<section id="projetos" class="section">
+  <div class="container">
+    <h2 class="section-title reveal">Projetos</h2>
+
+    <div class="projetos-grid">
+
+      <!-- PROJETO 1 -->
+<article class="projeto-card reveal">
+  <div class="thumb">
+    <img src="project2.webp" alt="Controle Financeiro">
+  </div>
+
+  <div class="card-body">
+    <h3>Controle Financeiro</h3>
+    <p>Sistema para controle de gastos, categorias e registros financeiros.</p>
+
+    <div class="project-actions">
+      <button class="expand-btn">Prévia</button>
+      <a href="https://github.com/Aj3838/Controle_Financeiro" target="_blank" class="btn-code">
+        Código no GitHub
+      </a>
+    </div>
+
+    <div class="expand-content">
+      <div class="carousel auto-carousel">
+        <img src="project2.webp" class="active">
+        <img src="image.png">
+        <img src="rrrt.jpeg">
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- PROJETO 2 -->
+<article class="projeto-card reveal">
+  <div class="thumb">
+    <img src="log.jpeg" alt="Sistema de Login">
+  </div>
+
+  <div class="card-body">
+    <h3>Sistema de Login</h3>
+    <p>Autenticação de usuários com PHP, sessões e MySQL.</p>
+
+    <div class="project-actions">
+      <button class="expand-btn">Prévia</button>
+      <a href="https://github.com/Aj3838/login-system-php" target="_blank" class="btn-code">
+        Código no GitHub
+      </a>
+    </div>
+
+    <div class="expand-content">
+      <div class="carousel auto-carousel">
+        <img src="lig.jpeg" class="active">
+        <img src="lug.jpeg">
+        <img src="laao.jpeg">
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- PROJETO 3 -->
+<article class="projeto-card reveal">
+  <div class="thumb">
+    <img src="arit1.jpeg" alt="Descobrindo Aritmética">
+  </div>
+
+  <div class="card-body">
+    <h3>Descobrindo Aritmética</h3>
+    <p>Site educativo com quizzes e calculadora interativa.</p>
+
+    <div class="project-actions">
+      <button class="expand-btn">Prévia</button>
+      <a href="https://github.com/Aj3838/Descobrindo-Aritm-tica" target="_blank" class="btn-code">
+        Código no GitHub
+      </a>
+    </div>
+
+    <div class="expand-content">
+      <div class="carousel auto-carousel">
+        <img src="arit1.jpeg" class="active">
+        <img src="arit2.jpeg">
+        <img src="arit3.jpeg">
+      </div>
+    </div>
+  </div>
+</article>
+
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="section">
+  <div class="container contato-card reveal">
+    <h2>Contato</h2>
+    <p>Vamos conversar sobre seu projeto.</p>
+    <div class="social-links">
+      <a href="https://github.com/Aj3838" target="_blank" class="btn btn-social">GitHub</a>
+      <a href="mailto:agnojunior38@gmail.com" class="btn btn-social">E-mail</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>&copy; <span id="ano"></span> Agno Souza</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
