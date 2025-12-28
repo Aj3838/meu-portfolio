@@ -21,23 +21,6 @@ Trabalho com soluções simples e eficientes, pensadas para funcionar bem no cel
 - PHP
 - MySQL
 
----
-
-## Projetos em destaque
-
-### Barbearia Prado
-Site institucional moderno, responsivo e com foco em apresentação profissional e contato direto com clientes.
-
-Demo:
-https://aj3838.github.io/barbearia-prado/
-
----
-
-### Empório Viseu
-Modelo de site para comércio local, com layout clean, seções bem definidas e boa experiência em dispositivos móveis.
-
-Demo:
-https://aj3838.github.io/emporio-viseu-demo/
 
 ---
 
